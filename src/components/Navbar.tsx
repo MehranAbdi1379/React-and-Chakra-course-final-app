@@ -1,14 +1,12 @@
 import {
   Avatar,
   AvatarBadge,
-  Box,
   Button,
   Flex,
   HStack,
   Heading,
   Text,
 } from "@chakra-ui/react";
-import React from "react";
 
 const Navbar = () => {
   return (

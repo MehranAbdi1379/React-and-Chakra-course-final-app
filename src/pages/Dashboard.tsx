@@ -8,17 +8,13 @@ import {
   CardFooter,
   CardHeader,
   Divider,
-  Flex,
-  Grid,
-  GridItem,
   HStack,
   Heading,
-  Icon,
   SimpleGrid,
   Text,
 } from "@chakra-ui/react";
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Dashboard = () => {
   type task = {

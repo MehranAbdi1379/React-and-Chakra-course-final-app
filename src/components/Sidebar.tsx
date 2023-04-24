@@ -1,6 +1,5 @@
 import { AtSignIcon, CalendarIcon, EditIcon } from "@chakra-ui/icons";
-import { Box, HStack, Heading, List, ListItem, Text } from "@chakra-ui/react";
-import React from "react";
+import { Box, HStack, Heading, List, ListItem } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
