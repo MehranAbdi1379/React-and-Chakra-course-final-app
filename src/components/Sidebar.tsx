@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <Box p="20px" bg="orange.300" height={{ base: "500px", md: "100vh" }}>
+    <Box
+      p={{ base: "2vw", md: "1.5vw" }}
+      bg="orange.300"
+      minHeight={{ base: "150px", md: "100vh" }}
+      height="full"
+    >
       <List spacing={3} paddingTop={2}>
         <ListItem>
           <Link to="/">
