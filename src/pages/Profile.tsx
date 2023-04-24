@@ -21,7 +21,8 @@ const Profile = () => {
       paddingLeft="40px"
       variant="enclosed"
       colorScheme="orange"
-      height="86vh"
+      paddingRight="40px"
+      paddingTop="25px"
     >
       <TabList>
         <Tab _selected={{ bg: "orange" }}>Account Info</Tab>

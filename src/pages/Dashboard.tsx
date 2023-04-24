@@ -13,20 +13,13 @@ import {
   SimpleGrid,
   Text,
 } from "@chakra-ui/react";
-import axios from "axios";
 import { useEffect, useState } from "react";
+import TaskService, { task } from "../service/TaskService";
 
 const Dashboard = () => {
-  type task = {
-    id: number;
-    title: string;
-    description: string;
-    img: string;
-    author: string;
-  };
   const [tasks, setTasks] = useState<task[]>();
   useEffect(() => {
-    axios.get("http://localhost:3000/tasks").then((res) => setTasks(res.data));
+    TaskService.GetTasks("/tasks").then((res) => setTasks(res.data));
   }, []);
 
   return (

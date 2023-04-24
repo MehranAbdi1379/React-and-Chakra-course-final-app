@@ -8,12 +8,7 @@ const RootLayout = () => {
     <>
       <Grid templateColumns="repeat(6 , 1fr)">
         <GridItem colSpan={{ base: 6, md: 2, xl: 1 }}>
-          <Box
-            position={{ base: "static", md: "fixed" }}
-            width={{ base: "100%", md: "33.2%", xl: "16.6%" }}
-          >
-            <Sidebar></Sidebar>
-          </Box>
+          <Sidebar></Sidebar>
         </GridItem>
 
         <GridItem colSpan={{ base: 6, md: 4, xl: 5 }} bg="gray.50">

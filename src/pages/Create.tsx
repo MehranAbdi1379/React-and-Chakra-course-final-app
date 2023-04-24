@@ -28,7 +28,7 @@ const Create = () => {
     });
   };
   return (
-    <Box height="86vh">
+    <Box paddingLeft="25px">
       <Form onSubmit={onSubmit}>
         <FormControl isRequired p={5}>
           <FormLabel>Task name:</FormLabel>
