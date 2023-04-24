@@ -12,7 +12,7 @@ import Profile from "./pages/Profile";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout></RootLayout>}>
-      <Route path="dashboard" element={<Dashboard></Dashboard>}></Route>
+      <Route index element={<Dashboard></Dashboard>}></Route>
       <Route path="create" element={<Create></Create>}></Route>
       <Route path="Profile" element={<Profile></Profile>}></Route>
     </Route>

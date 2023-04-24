@@ -1,7 +1,9 @@
-import React from "react";
+import { Grid, GridItem } from "@chakra-ui/react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 const Profile = () => {
-  return <div>Profile</div>;
+  return <div></div>;
 };
 
 export default Profile;
